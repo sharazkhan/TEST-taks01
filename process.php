@@ -1,4 +1,5 @@
-<? ob_start(); header('Cache-Control: no-store, no-cache, must-revalidate');
+<?php
+ob_start(); header('Cache-Control: no-store, no-cache, must-revalidate');
 
 	$data = $_REQUEST['mapdata'];
 	
